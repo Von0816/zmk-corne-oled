@@ -1,0 +1,16 @@
+file_format: "1"
+id: corne
+name: Corne
+url: https://github.com/von0816/zmk-corne-oled
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - corne_peripheral_left
+  - corne_peripheral_right
+  - corne_central_dongle
