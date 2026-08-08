@@ -5,9 +5,9 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
     artifact-name: corne_central_dongle_oled
   - board: eyelash_nano
-    shield: corne_right nice_oled
+    shield: corne_peripheral_right nice_oled
   - board: eyelash_nano
-    shield: corne_left nice_oled
+    shield: corne_peripheral_left nice_oled
   - board: eyelash_nano
     shield: settings_reset
  
